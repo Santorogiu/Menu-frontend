@@ -1,6 +1,6 @@
 # Menu
 
-O Menu é um projeto pessoal com a finalidade de facilitar a escolha do clientes atraves de um cardápio digital.
+O Menu é um projeto pessoal com a finalidade de facilitar a escolha dos clientes através de um cardápio digital.
 
 ## 🚀 Começando
 
