@@ -1,0 +1,63 @@
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #00000080;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-container input {
+  width: 96%;
+  padding: 10px 6px;
+  border: 2px solid #6a6a6a38;
+  border-radius: 4px;
+}
+
+.label {
+  text-align: left;
+  width: 96%;
+  color: #6a6a6a;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #4a30ef;
+  border-radius: 6px;
+  margin-top: 6px;
+  padding: 10px;
+  outline: 0px;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #4930efd2;
+}

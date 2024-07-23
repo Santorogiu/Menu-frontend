@@ -1,0 +1,89 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 350px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0px;
+}
+
+.card h2 {
+  font-size: 1.4em;
+  color: #333;
+  margin: 0;
+}
+
+.price {
+  width: max-content;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #4930ef;
+  background: #0120e811;
+  padding: 8px 14px;
+  border-radius: 12px;
+  margin: 0;
+}
+
+.description {
+  color: #707070;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.price-delete-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* button css */
+
+.delete-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6em;
+  border: 0px solid transparent;
+  background-color: #ed4d4d37;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.2s linear;
+}
+
+.delete-button:hover {
+  background-color: rgba(237, 77, 77, 0.311);
+  box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+    8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
+    17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
+    36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
+    99px 72px 143px rgba(0, 0, 0, 0.08);
+}
